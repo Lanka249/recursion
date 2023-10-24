@@ -24,7 +24,7 @@ public class RecursionExample8 {
 		int l = scanner.nextInt();
 		int[] a = new int[l];
 		for (int i = 0; i < l; i++) {
-			System.out.println("Enter the elment to be added:");
+			System.out.println("Enter the element to be added:");
 			int ele = scanner.nextInt();
 			a[i] = ele;
 		}
