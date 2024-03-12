@@ -5,7 +5,7 @@ import java.util.Scanner;
 //finding of nth fibonacci number using multiple recursive calls
 public class RecursionExample10 {
 	public static int fibonacciNumber(int n) {
-		if (n <= 1) {
+		if (n <= 2) {
 			return n-1;
 		}
 		return fibonacciNumber(n - 1) + fibonacciNumber(n - 2);
