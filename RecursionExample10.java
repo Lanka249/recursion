@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class RecursionExample10 {
 	public static int fibonacciNumber(int n) {
 		if (n <= 1) {
-			return n;
+			return n-1;
 		}
 		return fibonacciNumber(n - 1) + fibonacciNumber(n - 2);
 	}
